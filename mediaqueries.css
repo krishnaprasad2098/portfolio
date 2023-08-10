@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
+    height: 91vh;
     margin-bottom: 6rem;
   }
   .about-containers {
@@ -16,8 +16,8 @@
   #hamburger-nav {
     display: flex;
     justify-content: space-between;
-    padding-left:4rem;
-    padding-right:4rem;
+    padding-left:1rem;
+    padding-right:1rem;
     gap:1rem;
   }
   #experience,
@@ -46,6 +46,7 @@
   .about-containers {
     margin-top: 0;
   flex-direction: row;
+  padding: 0 1rem 0 1rem;
 
   }
 }
@@ -56,7 +57,7 @@
     height: 40vh;
   }
   #profile {
-    height: 61vh;
+    /* height: 61vh; */
     margin-bottom: 0;
   }
   article {
@@ -97,7 +98,7 @@
   }
   .section__pic-container {
     width: auto;
-    height: 46vw;
+    /* height: 46vw; */
     justify-content: center;
   }
   .section__text__p2 {
@@ -108,7 +109,7 @@
   }
   .text-container {
     text-align: justify;
-    padding:0 1rem 0 1rem;
+    /* padding:0 1rem 0 1rem; */
   }
   .about-containers {
     margin-top: 0;
@@ -119,5 +120,20 @@
 
   .projects-display{
     padding: 0 0.5rem 0 0.5rem;
+  }
+
+  /* .projects-display{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  } */
+}
+
+
+
+@media screen and (min-width: 640px){
+  .projects-display{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding:2rem;
   }
 }

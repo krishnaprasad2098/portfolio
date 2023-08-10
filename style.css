@@ -11,7 +11,7 @@ body {
   font-family: "Poppins", sans-serif;
   background: rgb(238,174,202);
 
-  background:linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  /* background:linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
 }
 
 html {
@@ -153,7 +153,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  /* height: 96vh; */
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -302,6 +302,10 @@ section {
   bottom: 2.5rem;
 }
 
+.about-description{
+  padding:0 1rem 0 1rem;
+}
+
 .details-container {
  
   padding: 1.5rem;
@@ -444,7 +448,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  /* height: 70vh; */
 }
 
 .contact-info-upper-container {
