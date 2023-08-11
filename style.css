@@ -308,7 +308,7 @@ section {
 
 .details-container {
  
-  padding: 1.5rem;
+  padding: 0.5rem;
   flex: 1;
   background: white;
   border-radius: 1rem;
@@ -449,6 +449,7 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   /* height: 70vh; */
+  padding:0 0.25rem;
 }
 
 .contact-info-upper-container {
@@ -507,18 +508,20 @@ footer p {
   display:flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   gap:0.5rem;
-  padding:1.5rem 1rem 1.5rem 1rem;
+  /* padding:1.5rem 1rem 1.5rem 1rem; */
+  padding-bottom: 1rem;
   border: 4px solid #FFF0F5;
   border-radius: 4px;
+  min-width: 80%;
 
 }
 
 .project-card img{
   max-width: 100%;
-  aspect-ratio: 16/9;
-  object-fit: contain;
+  /* aspect-ratio: 16/9; */
+  /* object-fit: contain; */
 }
 
 
@@ -536,7 +539,7 @@ text-align: center;
 }
 
 .project-card button{
-  padding: 0.75rem 5.5rem 0.75rem 5.5rem;
+  padding: 0.5rem 2.5rem;
   border-radius: 5px;
   border: 4px solid #DF73FF;
   background-color: cornflowerblue;
