@@ -85,6 +85,9 @@
   .nav-links li a {
     font-size: 1rem;
   }
+  .contact-info-container p{
+    word-break: break-all;
+  }
   .experience-sub-title {
     font-size: 1.25rem;
   }
@@ -133,7 +136,25 @@
 @media screen and (min-width: 640px){
   .projects-display{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,0.5fr);
     padding:2rem;
+  }
+  .project-card img{
+    max-width: 100%;
+    aspect-ratio: 12/8;
+    object-fit: cover;
+  }
+  
+}
+
+@media screen and (max-width:1024px){
+  .projects-display{
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+
+@media screen and (min-width:645px) and (max-width:750px){
+  .projects-display{
+    grid-template-columns: repeat(2,1fr);
   }
 }
