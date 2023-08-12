@@ -371,7 +371,7 @@ section {
 
 .article-container{
   display:grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   justify-items: start;
   row-gap: 1rem;
 }
